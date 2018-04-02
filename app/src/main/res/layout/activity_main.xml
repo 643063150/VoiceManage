@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+    <com.example.voicemanage.voice.RecordVoiceButton
+        android:id="@+id/button_rec"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_selector"
+        android:text="录音"
+        android:textColor="#ffffff"
+        android:padding="8dp" />
+
+    <com.example.voicemanage.voice.WechatVoiceButton
+        android:id="@+id/button_rec1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_selector"
+        android:text="录音"
+        android:textColor="#ffffff"
+        android:padding="8dp"/>
+    <ListView
+        android:id="@+id/lv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="10dp"
+        ></ListView>
+
+
+</LinearLayout>

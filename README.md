@@ -8,7 +8,7 @@
 ### Gradle
 
 ```java
-compile 'com.contrarywind:Android-PickerView:3.2.5'
+compile 'com.googfily:voicemanage:1.1.0'
 ```
 具体使用方法
 ```java
